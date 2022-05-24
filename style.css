@@ -1,0 +1,224 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto+Condensed&family=Roboto+Flex:opsz@8..144&family=Roboto:ital,wght@1,300&family=Ubuntu:wght@300&family=Vollkorn:ital,wght@0,500;1,500&display=swap');
+h1 {font-family: 'Roboto Condensed', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color:#f3f0eb ;
+}
+.paragraphe {
+    font-family: 'Roboto Flex', sans-serif;
+}
+.lead { font-family: 'Roboto Condensed', sans-serif;
+}
+.blockquote {
+    font-family: 'Vollkorn', serif;
+}
+.small {
+    font-family: 'Vollkorn', serif;
+    font-size: small;
+}
+/* Les boutons + couleur */
+.fx-button-1 {
+    background: #f3f0eb;
+    width: 200px;
+    height: 100px;
+    color: grey;
+    border: #fff4E9;
+}
+.fx-button-1:hover{
+    background-color: lightgrey;
+}
+.fx-button-2 {
+    background: #6c8c9b;
+    width: 200px;
+    height: 100px;
+    border:#6aa9c6 ;
+}
+.fx-button-2:hover {
+    background-color: #6aa9c6;
+}
+.fx-button-6 {
+    background:#FFDA53 ;
+    width: 200px;
+    height: 100px;
+    color: grey;
+    border: #fff4E9;
+}
+.fx-button-6:hover{
+    background-color:#EDAE49 ;
+}
+.fx-button-3 {
+    background: #777B7E;
+    width: 200px;
+    height: 100px;
+    border:#6aa9c6 ;
+}
+.fx-button-3:hover {
+    background-color: #6aa9c6;
+}
+.fx-button-4 {
+    background: #BEBDB8;
+    width: 200px;
+    height: 100px;
+    border:#6aa9c6 ;
+}
+.fx-button-4:hover {
+    background-color: #6aa9c6;
+}
+.fx-button-5 {
+    background: #D6CFC7;
+    width: 200px;
+    height: 100px;
+    border:#6aa9c6 ;
+}
+.fx-button-5:hover {
+    background-color: #6aa9c6;
+}
+/* Submit Button */
+.submit-fx {
+    background-color:#FFDA53 ;
+    border: solid 1px #FFDA53;
+    color: grey;
+}
+.submit-fx:hover {
+    background-color: #FFDA53;
+    border: solid 1px #FFDA53;
+}
+/* background navbar */
+.bg-dark {
+    background-color: #6c8c9b;
+}
+
+.container{
+    flex-direction: row;
+}
+.card-link {
+    color: #FFDA53;
+}
+.card-link:hover {
+    color: #EDAE49;
+}
+body{
+    background-color:#f3f0eb ;
+}
+/* formulaire */
+.get_in_touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.get_in_touch .title {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: grey ;
+    background: linear-gradient(to right, #EDAE49, #6c8c9b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px auto;
+    
+
+}
+
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #6aa9c6;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    background-color: #f3f0eb;
+}
+
+.contact-form .input-text:focus{
+    outline: none;
+}
+.contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #6aa9c6;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+    text-transform: capitalize;
+}
+
+.contact-form .submit-btn {
+    display: inline-block;
+    background-color: #EDAE49;
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+
+}
+.submit-btn:hover {
+    background-color: #FFDA53;
+}
+.color-input-fx{
+    color: #6c8c9b;
+}
+/* Footer */
+.footer-fx{
+    background-color: #6c8c9b;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.fx-link{
+    color: #EDAE49;
+}
+.fx-link:hover{
+    color: #FFDA53;
+}
+
+/* Bannière */
+.carousel-item{
+    height: 32rem;
+    background-color: #777B7E;
+    position: relative;
+    background-position: center ;
+    background-size: cover;
+}
+.container-banner{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center ;
+    background-size: cover;
+
+}
